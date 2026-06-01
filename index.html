@@ -972,10 +972,7 @@
 <script>
   const today = new Date().toISOString().split('T')[0];
 document.querySelectorAll('input[type="date"]').forEach(el => el.min = today);
-function toggleMenu() {
-  document.getElementById('mobileDrawer').classList.toggle('active');
-  document.getElementById('drawerOverlay').classList.toggle('active');
-}
+
 function toggleMenu() {
   document.getElementById('mobileDrawer').classList.toggle('active');
   document.getElementById('drawerOverlay').classList.toggle('active');
